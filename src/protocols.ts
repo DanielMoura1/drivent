@@ -10,6 +10,13 @@ export type ViaCEPAddress = {
   localidade: string,
   uf: string,
 };
+export type CEP = {
+  logradouro: string,
+  complemento: string,
+  bairro: string,
+  cidade: string,
+  uf: string,
+};
 
 export type RequestError = {
   status: number,
@@ -18,3 +25,4 @@ export type RequestError = {
   name: string,
   message: string,
 };
+
